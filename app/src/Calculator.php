@@ -12,8 +12,7 @@ class Calculator
     return $a * $b ;
   }
   public function divideNumbers($a, $b) {
-    if ( $b == 0) return 0;
-    return $a / $b ;
+    return $b == 0 ? 0 : $a/$b;
   }
 }
 
